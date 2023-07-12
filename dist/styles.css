@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.searchIcon {
+    height: 50px;
+    width: 70px;
+    padding-left: 20px;
+}
+
+.search {
+    height: 70px;
+    width: 350px;
+    display: flex;
+    border-bottom: 3px solid white;
+    margin-top: 30px;
+    margin-right: 100px;
+}
+
+.locationInput {
+    font-size: 20px;
+    outline: none;
+    background: none;
+    color: white;
+}
+
+.locationInput::placeholder {
+    color: white;
+}
+
+.weatherInfo {
+    margin-top: 140px;
+    height: 500px;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 50px;
+}
+
+.left {
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.right {
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+}
+
+.background {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+    filter: brightness(50%);
+}
+
+.weatherIcon {
+    height: 200px;
+    width: 200px;
+    color: white;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.weather {
+    font-size: 50px;
+}
+
+.date {
+    margin-top: -30px;
+}
+
+.degree {
+    font-size: 50px;
+}
+
+.infoIcon {
+    height: 80px;
+    width: 80px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.feelsLike {
+    font-size: 50px;
+}
+
+.humidity {
+    font-size: 50px;
+}
+
+.wind {
+    font-size: 50px;
+}
+
+.windIcon {
+    height: 100px;
+    width: 100px;
+}
+
+.changeButton {
+    width: 200px;
+    height: 60px;
+    background-color:darkred;
+    color: white;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 90px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}

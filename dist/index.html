@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="styles.css" rel="stylesheet"></link>
+    <title>Document</title>
+</head>
+<body>
+    <div class="search">
+        <input type="text" placeholder="Search Location" class="locationInput"> 
+        <img src="documents/search-icon.png" class="searchIcon">
+    </div>
+
+    <div class="weatherInfo">
+        <div class="left">
+            <p class="weather">Sunny</p>
+            <p class="place">Istanbul</p>
+            <p class="date">2023-07-12 15:46</p>
+            <p class="degree">27°C</p>
+            <img src="documents/sunny.png" class="weatherIcon">
+        </div>
+
+        <div class="right">
+            <div class="container">
+                <svg class="infoIcon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0,0,256,256"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(8,8)"><path d="M26,30h-4c-1.10322,-0.00324 -1.99676,-0.89678 -2,-2v-7c-1.10322,-0.00324 -1.99676,-0.89678 -2,-2v-6c-0.01466,-0.80005 0.2967,-1.57167 0.86252,-2.13748c0.56582,-0.56582 1.33743,-0.87718 2.13748,-0.86252h6c0.80005,-0.01466 1.57167,0.2967 2.13748,0.86252c0.56582,0.56582 0.87718,1.33743 0.86252,2.13748v6c-0.00324,1.10322 -0.89678,1.99676 -2,2v7c-0.00324,1.10322 -0.89678,1.99676 -2,2zM21,12c-0.26988,-0.01629 -0.53381,0.08383 -0.72499,0.27501c-0.19118,0.19118 -0.2913,0.45511 -0.27501,0.72499v6h2v9h4v-9h2v-6c0.01629,-0.26988 -0.08383,-0.53381 -0.27501,-0.72499c-0.19118,-0.19118 -0.45511,-0.2913 -0.72499,-0.27501z" fill="#ffffff"></path><path d="M24,9c-2.20914,0 -4,-1.79086 -4,-4c0,-2.20914 1.79086,-4 4,-4c2.20914,0 4,1.79086 4,4c-0.00648,2.20645 -1.79355,3.99352 -4,4zM24,3c-1.10457,0 -2,0.89543 -2,2c0,1.10457 0.89543,2 2,2c1.10457,0 2,-0.89543 2,-2c-0.00324,-1.10322 -0.89678,-1.99676 -2,-2z" fill="#ffffff"></path><path d="M10,20.1839v-8.1839h-2v8.1839c-1.37755,0.48704 -2.20387,1.89567 -1.9568,3.33573c0.24708,1.44007 1.49569,2.49269 2.9568,2.49269c1.46111,0 2.70972,-1.05263 2.9568,-2.49269c0.24708,-1.44007 -0.57925,-2.8487 -1.9568,-3.33573z" fill="#ffffff"></path><path d="M9,30c-2.8172,0.00276 -5.36096,-1.68523 -6.45309,-4.28213c-1.09213,-2.5969 -0.51933,-5.59555 1.45309,-7.60707v-11.1108c0,-2.76142 2.23858,-5 5,-5c2.76142,0 5,2.23858 5,5v11.1108c1.97242,2.01152 2.54522,5.01017 1.45309,7.60707c-1.09213,2.5969 -3.63589,4.28489 -6.45309,4.28213zM9,4c-1.6561,0.00182 -2.99818,1.3439 -3,3v11.9834l-0.332,0.2983c-1.54592,1.38172 -2.07867,3.5742 -1.33918,5.51125c0.73949,1.93705 2.59777,3.21672 4.67118,3.21672c2.07341,0 3.93169,-1.27967 4.67118,-3.21672c0.73949,-1.93705 0.20674,-4.12953 -1.33918,-5.51125l-0.332,-0.2983v-11.9834c-0.00182,-1.6561 -1.3439,-2.99818 -3,-3z" fill="#ffffff"></path><path d="M0,0h32v32h-32z" fill="none"></path></g></g></svg>
+                <p class="feelsLike">Feels Like 27°C</p>
+            </div>
+
+            <div class="container">
+                <img src="documents/humidity.png" class="InfoIcon">
+                <p class="humidity">52%</p>
+            </div>
+
+            <div class="container">
+                <img src="documents/wind.png" class="InfoIcon windIcon">
+                <p class="wind">Wind Speed 11.2 KPH</p>
+            </div>
+        </div>
+    </div>
+
+    <button class="changeButton">Change To F</button>
+
+    <img src="documents/background1.jpg" class="background">
+
+    <script src="main.js"></script>
+</body>
+</html>
